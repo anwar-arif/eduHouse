@@ -1,0 +1,138 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+.panel-custom-1{
+    background: rgba(19, 35, 47, 0.9);
+  opacity : 0.9;  
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.myDiv {
+    font-size: 20px;
+  background: #c1bdba;
+  font-family: 'Dosis', sans-serif;
+}
+#myH1{
+   color: #f79f07;
+    font-size: 40px;
+    font-weight:100; 
+}
+
+a {
+  text-decoration: none;
+  color: #1ab188;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+a:hover {
+  color: #179b77;
+}
+
+.form {
+  background: rgba(19, 35, 47, 0.9);
+  opacity : 0.9;  
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.form-group{
+    color: #64f4dc; 
+    font-weight:100;
+}
+
+.form > label{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+#d1{
+    padding-top:5px;
+}
+#d2{
+    padding-top:10px;
+}
+#d3{
+    padding-top:15px;
+}
+#d4{
+    padding-top:30px;
+}
+#d5{
+    margin-bottom:0px;
+}
+h1 {
+  text-align: center;
+  color: #f79f07;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+input[type=checkbox], input[type=radio] {
+    text-align:left;
+    margin-top:10px;
+    transform:scale(1.5);
+}
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}

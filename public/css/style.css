@@ -1,0 +1,210 @@
+.parallax{
+    background: transparent;
+}
+div{
+    font-family: "Kanit", sans-serif;
+    font-weight:100;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+#div1{
+}
+#div2{
+    background-color : #4f4668;
+    opacity: 0.9;
+}
+#div3{
+    margin-bottom: 0;
+    background-color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    color:#26282b;
+}
+#div4{
+    padding:70px;
+}
+#div5{
+    background-color:whitesmoke; 
+}
+#navbar-div{
+-webkit-box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+}
+.mySpan{
+    color : #f2a100;
+}
+.myA{
+    color : #4dd1c2;
+    float:left;height:50px;padding:22px 15px;font-size:26px;line-height:20px
+}
+.mySpan:hover{
+    color : #ffc95e;
+    text-decoration: none;
+}
+.myA:hover{
+    color:#82fff0;
+    background-color: #362a56;
+    text-decoration: none;
+}
+.navbar-header{
+    padding-left : 20px;
+}
+.myNavBar{
+    height:65px;
+    background-color : #0f0330;
+    opacity : 0.9;
+}
+.nav li{
+    margin-right:2px;
+}
+.myNavBar ul, .myNavBar a{
+    height:65px;
+}
+.myNavBar ul a{
+    padding-top:22px;
+    padding-left:50px;
+    padding-right:50px;
+    color:white;
+    font-size: 20px;
+}
+.crop-img{
+    max-width: 250px;
+    max-height: 180px;
+    overflow: hidden;
+}
+.img-custom{
+    width: 250px;
+    height: 190px;
+    background-size: cover;
+}
+
+.img-custom:hover{
+    transition: all 0.5s ease-in-out;
+    border-radius: 100%;
+}
+.img-div-custom{
+    background-color: white;
+    border:none;
+    padding: 0 0;
+}
+.myNavBar li{
+    background-color : #4f4668;
+    opacity : 0.9;
+}
+.myNavBar li:hover{
+    background-color : #3aa89b;
+    color : white;
+    opacity: inherit;
+}
+#div3 h4{
+    font-size: 40px;
+    font-weight:200;
+    color:#5f6266;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+#div4 .thumbnail{
+    border:none;
+    padding: 0 0;
+    background-color: #26282b;
+    -webkit-box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+    box-shadow: 0px 16px 56px -10px rgba(0,0,0,0.72);
+}
+.row-custom{
+    padding:20px 50px;
+}
+.padding-0 {
+    
+}
+#div4 .myArticle{
+    padding:20px 30px;
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+}
+.footer-div{
+    margin-bottom: 0px;
+    padding: 0px;
+    width:inherit;
+    height:100px;
+    background-color: dimgray;
+}
+
+/* search bar */
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+/* sidebar right labels */
+.label-custom{
+    background-color: #55457c;
+    color:#c4b4ed;
+    position:relative;
+    top:-20px;
+    left:40px;
+    font-size: 20px;
+    padding:10px;
+    margin:0;
+}
+.radio-btn-custom{
+    padding-top:3px;
+    font-size: 15px;
+    color:#988bba;
+}
+.sidebar-right-2{ /*this is the sidebar of the series page */
+    position: fixed;
+    left:1150px;
+    width: 200px;
+    height: 100%;
+    background: #342463;
+}

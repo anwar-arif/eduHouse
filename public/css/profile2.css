@@ -1,0 +1,261 @@
+.div-2{
+            display:block;
+            overflow:auto;
+        }
+        .div-container-custom{
+            padding: 3px;
+        }
+        p{
+            font-size: 20px;
+            font-weight:400;
+        }
+        .post-para-1{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        .container-custom-1{
+            background-color: #47ad9e;
+            min-height:100%;
+        }
+        .row-custom-1{
+            background:#cee2de;
+        }
+        .row-custom-1 > label, img{
+            display: inline;
+        }
+        .row-custom-1 > label{
+            float: left;
+            padding-top: 14px;
+            font-size: 24px;
+        }
+        
+        .label-right-float{
+            
+            float: right;
+            background: #0faa89;
+            height:100%;
+            position:absolute;
+            text-align: center;
+        }
+        .img-custom-1{
+            float:left;
+            border-radius: 50%;
+            width:70px;
+            height:70px;
+        }
+        .img-custom-2{
+            float:left;
+            border-radius: 50%;
+            width:50px;
+            height:50px;
+        }
+        .row-post-1{
+            background:#ffffff;
+        }
+        .comment-1{
+            background-color: darkslategray;
+        }
+        .comment-class-1{
+            background-color: #534f60;
+            padding: 8px;
+        }
+        .comment-p{
+            width: 500px;
+            border-radius: 10px;
+            font-size: 15px;
+            padding-left: 10px;
+            float:right;
+            width:auto;
+            background-color:white;
+            color:black;
+            border: 2px solid #483e70;
+        }
+        .sidebar-left-custom{
+            font-family:'Dosis', sans-serif;
+            position: fixed;
+            width: 300px;
+            height: 100%;
+            background: #342463;
+        }
+        .sidebar-right-custom{
+            font-family:'Dosis', sans-serif;
+            position: fixed;
+            left:1050px;
+            width: 300px;
+            height: 100%;
+            background: #342463;
+        }
+        .div-a{
+            color:inherit;
+            text-decoration: none;
+        }
+        .div-a:hover{
+            color:#82fff0;
+            background-color: #342463;
+            text-decoration: none;
+        }
+        .top-padding-bar{
+            display:block;
+            background-color:#47ad9e;
+            height: 50px;
+        }
+        .panel-title-custom{
+            margin-top:70px;
+            display:block;
+            background-color:#aec1bd;
+            height:8%;
+            text-align:center;
+            color:#342463;
+        }
+        .user-holder{
+            display:block;
+            padding: 0;
+            margin : 0;
+        }
+        .user-holder-users:hover{
+            background-color: #342463;
+        }
+        .user-holder-users > img{
+            border-radius:50%;
+            width:50px;
+            height:50px;
+            display:inline;
+        }
+        .user-holder-users > h4{
+            padding-left: 10px;
+            display:inline;
+        }
+        .user-holder-users{
+            padding:0; height: 50px;
+        }
+        .user-holder-users:nth-child(even){
+            background-color:#a7a1c4;
+        }
+        .user-holder-users:nth-child(odd){
+            background-color:#807a9b;
+        }
+
+        /*sidebar contents */
+        .sidebar-custom{
+            font-family:'Dosis', sans-serif;
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background: #342463;
+            opacity:0.9;
+        }
+        .ul-custom{
+            padding:0;
+            margin:0;
+            margin-top:70px;
+        }
+        .ul-custom li{
+            font-size:18px;
+            margin:10px;
+            padding:15px 20px;
+            border-bottom:3px solid #201738; 
+            text-align:center;
+            list-style:none;
+            color:#c0b5dd;
+        }
+        .ul-custom > li:hover{
+            background-color:#201738;
+            color:aliceblue;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none !important;
+            color:#c0b5dd;
+        }
+        a:hover{
+            text-decoration:none !important;
+            color:#fff;
+        }
+        /*sidebar content ends */
+        
+        
+        html, body{
+            height:100%;
+        }
+        .master-div{
+            overflow:auto;
+            height:100%;
+            background-color:#8accc2;
+        }
+        div{
+            font-family:"Dosis",sans-serif;
+        }
+        .div-blank-top{
+            float:none;
+            display:block;
+            height:70px;
+            background:#8accc2;
+        }
+        input.hidden {
+            position: absolute;
+            left: -9999px;
+        }
+        .panel-heading h3{
+            color:#473975;
+        }
+        #profile-image1 {
+            cursor: pointer;
+
+             width: 100px;
+            height: 100px;
+            border:2px solid #03b1ce ;}
+        .tital{ font-size:16px; font-weight:500; color:#4c6d68;}
+        .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}
+        
+        /*series section */
+        .series-list{
+            list-style: none;
+            margin:0px;
+            padding:0px;
+        }
+        .series-list li{
+            text-align:center;
+            background-color:#158776;
+            font-size:25px;
+            margin:10px;
+            padding:20px;
+            padding-left: 25px;
+            color: #d5deed;
+            font-weight:700;
+        }
+        .series-list li:hover{
+            cursor:initial;
+            background-color:#0d4f45;
+            color:#fff;
+        }
+        .series-list-child{
+            list-style: none;
+            margin:0px;
+            padding:0px;
+        }
+        .series-list-child li{
+            text-align:left;
+            background-color:#99efdf;
+            font-size:15px;
+            margin:10px;
+            padding:10px;
+            padding-left: 25px;
+            color: #436b69;
+            font-weight:800;
+        }
+        .series-list-child li:hover{
+            cursor:initial;
+            background-color:#689991;
+            color:#000;
+        }
+        .li-button{
+            padding:0;
+            margin:0;
+            background-color:#0b7c77;
+            text-decoration: none;
+        }
+        .li-button:hover{
+            background-color:#093533;
+        }
